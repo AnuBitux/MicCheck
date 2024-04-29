@@ -57,4 +57,3 @@ os.system('./play_audio.sh')
 # Removing files
 os.system('rm recorded_audio.wav')
 os.system('rm recorded_audio.mp3')
-os.system('rm temp.wav')
