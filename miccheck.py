@@ -43,7 +43,7 @@ def convert_to_mp3(wav_file, mp3_file):
     sound = AudioSegment.from_wav(wav_file)
     sound.export(mp3_file, format="mp3")
 
-
+os.chdir('/opt/Tools/WalletGen/MicCheck')
 filename = 'recorded_audio.wav'
 mp3_filename = 'recorded_audio.mp3'
 record_seconds = 5
